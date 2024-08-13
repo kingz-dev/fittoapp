@@ -52,22 +52,26 @@ export const ProfileCard = () => {
         <h2 className="profile-email">Welcome, {displayName} !</h2>
         <form className="profile-update" onSubmit={handleSubmit}>
           <select
-            value={fitnessLevel}
-            onChange={(e) => setFitnessLevel(e.target.value)}
-          >
-            <option value="">Fitness level</option>
-            <option value="Beginner">General health & wellness</option>
-            <option value="Intermediate">Increase flexibility</option>
-            <option value="Advanced">Improve endurance & build muscle</option>
-          </select>
-          <select
             value={fitnessGoal}
             onChange={(e) => setFitnessGoal(e.target.value)}
           >
             <option value="">Fitness goal</option>
-            <option value="Build muscle">Cardio</option>
-            <option value="Lose weight">Yoga/Pilate</option>
-            <option value="Improve endurance">Strength training</option>
+            <option value="General health & wellness">
+              General health & wellness
+            </option>
+            <option value="Increase flexibility">Increase flexibility</option>
+            <option value="Improve endurance & build muscle">
+              Improve endurance & build muscle
+            </option>
+          </select>
+          <select
+            value={fitnessLevel}
+            onChange={(e) => setFitnessLevel(e.target.value)}
+          >
+            <option value="">Fitness level</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
           </select>
           <button className="generate-plan-button" type="submit">
             Generate Customized Plan
