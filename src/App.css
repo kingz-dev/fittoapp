@@ -1,0 +1,108 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header Component */
+header {
+  height: 70px;
+  padding: 10px;
+  border-bottom: 1px solid #ff5722;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-width: 60px;
+}
+
+.logo span {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav .link {
+  padding: 10px;
+}
+
+.nav .link.active {
+  /* background-color: #F2EBE9; */
+  border-bottom: 2px solid #ff5722;
+  /* border-radius: 5px; */
+}
+
+.nav .auth {
+  border: 0px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff5722;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav .auth .google-icon {
+  width: 18px;
+  padding-right: 5px;
+}
+
+.nav .auth i {
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+/* Page Not Found  */
+.pageNotFound {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.pageNotFound img {
+  border-radius: 5px;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.pageNotFound button {
+  border: 0px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #ff5722;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ff5722;
+  /* background-color: #ea5131; */
+}
+
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .social img {
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

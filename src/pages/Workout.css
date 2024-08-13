@@ -1,0 +1,93 @@
+.workout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: white;
+}
+
+.workout-quote {
+  background: linear-gradient(180deg, #9e44bb, #5f27cd);
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.workout-quote p {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.quote-mark {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.workout-title {
+  background: linear-gradient(180deg, #ff7e5f, #feb47b);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.workout-exercises {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.exercise img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.exercise.one img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* fitcard */
+.fitcard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.fitcard-container p {
+  margin: 5px 10px;
+  color: #555;
+}
+
+.fitcard-container strong {
+  color: #000;
+}
+.delete-icon {
+  margin-left: 30px;
+  color: red;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

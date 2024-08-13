@@ -1,0 +1,115 @@
+/* Home Component */
+.home-section {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+  background-image: url("../assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.fitto-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #ff5722;
+  border-radius: 15px;
+  padding: 20px 50px;
+  margin: 50px 70px;
+  /* height: 80%; */
+}
+
+.fitto-welcome-text h1 {
+  font-size: 4rem;
+  color: #ff5722;
+  margin-top: -30px;
+}
+
+.fitto-welcome-text h2 {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.fitto-welcome-text p {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.fitto-highlight {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.continue {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.continue img {
+  width: 25px;
+  padding-right: 10px;
+}
+
+.fitto-image img {
+  width: 200px;
+}
+
+/* Newsletter */
+.fittoNs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.fittoNs h2 {
+  margin-top: 20px;
+  color: #ff5722;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fittoNs .newsletter-container {
+  margin: 30px 0px;
+}
+
+.fittoNs .newsletter-form {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fittoNs .email-input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 300px;
+}
+
+.fittoNs .submit-btn {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.fittoNs .submit-btn:hover {
+  background-color: #fc4108;
+}
