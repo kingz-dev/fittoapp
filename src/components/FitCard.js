@@ -25,11 +25,11 @@ export const FitCard = ({ pro, toggle, setToggle }) => {
     <div className="fitcard-container">
       {isAuth && userId === auth.currentUser.uid && (
         <>
-          <p>
-            <strong>Fitness Level:</strong> {fitnessLevel}
-          </p>
           <p className="goal">
             <strong>Fitness Goal:</strong> {fitnessGoal}
+          </p>
+          <p>
+            <strong>Fitness Level:</strong> {fitnessLevel}
           </p>
           <span onClick={handleDelete} className="delete-icon">
             <i className="bi bi-x-circle"></i>
